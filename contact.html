@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chaka</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./footer.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <script src="./contact.js" defer></script>
+</head>
+<body>
+    <header class="w-full bg-[url('./img/nav_bg.png')] py-5">
+        <nav class="w-4/5 mx-auto flex md:flex-row items-center md:justify-between p-5">
+            <div class="flex items-center gap-10">
+                <img src="./img/nav_logo.png" alt="CHAKA">
+                <ul class="text-white flex md:flex-row items-center gap-10">
+                    <li><a class="hover:text-[#e22937]" href="./index.html">Home</a></li>
+                    <li><a class="hover:text-[#e22937]" href="./about.html">About</a></li>
+                    <li><a class="hover:text-[#e22937]" href="./contact.html">Contact</a></li>
+                    <li><a class="hover:text-[#e22937]" href="#">Cars</a></li>
+                </ul>
+            </div>
+            <div class="flex items-center gap-10">
+                <a class="text-[#e22937]" href="#">+1 828-376-0532</a>
+                <a class="text-white hover:text-[#e22937]" href="#">support@chaka.com</a>
+                <a class="bg-[#e22937] px-5 py-4 rounded-md text-white" href="./signup.html">Sign Up</a>
+            </div>
+        </nav>
+        
+    </header>
+
+    <main class="my-10 w-full flex h-[70vh] bg-[url('./img/contact_bg.png')] text-white">
+      <div class="w-1/2 mx-auto my-auto">
+        <div class="ml-20">
+            <h2 class="text-3xl font-bold">Get In Touch</h2>
+        <p class="my-5">[+1] 515-602-6843</p>
+        <div class="flex gap-20 mt-20">
+            <div>
+                <h4 class="text-xl font-semibold">Location</h4>
+                <p> 1234 Car Street, Auto City, CA 56789</p>
+                <h4 class="text-xl font-semibold">Email</h4>
+                <p>support@chaka.com</p>
+            </div>
+            <div>
+                <h4 class="text-xl font-bold">Opening Hours</h4>
+                <ul>
+                    <li>Mon: 10am - 5pm</li>
+                    <li>Tue: 10am - 5pm</li>
+                    <li>Wed Closed</li>
+                    <li>Thu: 10am - 5pm</li>
+                    <li>Fri: 10am - 5pm</li>
+                    <li>Sat: 10am - 5pm</li>
+                    <li>Sun Closed</li>
+                </ul>
+            </div>
+        </div>
+        </div>
+      </div>
+      <div class="bg-red-500 w-1/2 flex justify-center items-center">
+        <div class="mr-20 w-4/5">
+            <h3 class="text-3xl font-bold">Send Message</h3>
+        <form onsubmit="handleSubmitMessage(event)" class="flex flex-col gap-5 mt-10">
+            <input required class="py-4 px-2 bg-[#8f1d26] placeholder-white" type="text" id="full_name" placeholder="Full Name">
+            <input required class="py-4 px-2 bg-[#8f1d26] placeholder-white" type="email" id="contact_email" placeholder="Email Address">
+            <textarea required class="py-4 px-2 bg-[#8f1d26] placeholder-white" name="" id="message" placeholder="Message"></textarea>
+            <input class="btn bg-white" type="submit" value="Send Message">
+        </form>
+        </div>
+      </div>
+    </main>
+    <section class="mt-14">
+        <iframe class="w-full" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3649.73467119762!2d90.36142897608747!3d23.82803228579023!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c13a21730b43%3A0xb14a9c52d01c00d9!2sMirpur-12%20Bus%20Stand!5e0!3m2!1sen!2sbd!4v1718016921804!5m2!1sen!2sbd"  height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </section>
+    <footer>
+        <div class="w-4/5 mx-auto flex md:flex-row md:justify-between">
+            <div class="footer-about">
+                <h3 class="text-xl font-semibold">About Chaka</h3>
+                <p>Chaka is your one-stop solution for buying and selling cars. We provide a wide range of vehicles to suit your needs and budget. Join us to experience a seamless car buying and selling journey.</p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="/home">Home</a></li>
+                    <li><a href="/about">About Us</a></li>
+                    <li><a href="/contact">Contact Us</a></li>
+                    <li><a href="/inventory">Cars</a></li>
+                    <li><a href="/faq">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p>Email: support@chaka.com</p>
+                <p>Phone: +1 828-376-0532</p>
+                <p>Address: 1234 Car Street, Auto City, CA 56789</p>
+            </div>
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/chaka" target="_blank">Facebook</a>
+                    <a href="https://www.twitter.com/chaka" target="_blank">Twitter</a>
+                    <a href="https://www.instagram.com/chaka" target="_blank">Instagram</a>
+                    <a href="https://www.linkedin.com/company/chaka" target="_blank">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Chaka. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</body>
+</html>

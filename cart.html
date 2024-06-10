@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./profile.css">
+    <script src="./profile.js" defer></script>
+    <script src="./cart.js" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+</head>
+<body class="bg-gray-100">
+    <div class="min-h-screen flex">
+        <!-- Sidebar -->
+        <div class="bg-blue-900 text-white w-64 space-y-6 py-7 px-2">
+            <div class="text-2xl font-extrabold text-center">
+                Dashboard
+            </div>
+            <nav>
+                <a href="./index.html" class="block py-2.5 px-4 rounded transition duration-200 hover:bg-blue-800">Home</a>
+                <a href="./profile.html" class="block py-2.5 px-4 rounded transition duration-200 hover:bg-blue-800">Profile</a>
+                <a href="./cart.html" class="block py-2.5 px-4 rounded transition duration-200 hover:bg-blue-800">Your Cart</a>
+                <a onclick="handleLogout()" class="block py-2.5 px-4 rounded transition duration-200 hover:bg-[#e22937] cursor-pointer">Logout</a>
+            </nav>
+        </div>
+
+        <!-- Main Content -->
+        <div class="flex-1 p-8">
+            <h1 class="text-center text-2xl font-bold">Your total cart item: <span id="cart_count"></span></h1>
+
+            <div id="car_div" class="my-20 flex md:flex-row gap-6 md:justify-between flex-wrap">
+              
+                
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</body>
+</html>
