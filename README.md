@@ -7,3 +7,5 @@ I meticulously designed and implemented a suite of car buying functionalities, e
 ## 🛠 Build With
 HTML, CSS, TailwindCSS, JavaScript
 
+## Screenshots
+![chaka](https://github.com/imark114/Chaka_fron-end/assets/129614957/b9cbaca1-bd23-4391-aa05-fb5e5bd889bd)
